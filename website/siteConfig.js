@@ -39,7 +39,7 @@ const contributors = [
 ];
 
 const siteConfig = {
-  title: 'Crank Native', // Title for your website.
+  title: 'Crank Native 🤖', // Title for your website.
   tagline: 'Write JSX-driven components with functions, Promises and generators for iOS and Android.',
   url: 'http://crank-native.netlify.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
