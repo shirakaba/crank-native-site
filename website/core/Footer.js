@@ -56,12 +56,12 @@ class Footer extends React.Component {
               User Showcase
             </a>*/}
             <a
-              href="https://stackoverflow.com/questions/tagged/react-nativescript"
+              href="https://stackoverflow.com/questions/tagged/crank-native"
               target="_blank"
               rel="noreferrer noopener">
               Stack Overflow
             </a>
-            <a href="https://nativescriptcommunity.slack.com/"><span>Chat on Slack in </span><code>#react</code></a>
+            <a href="https://nativescriptcommunity.slack.com/"><span>Chat on Slack in </span><code>#crank</code></a>
             <a
               href="https://twitter.com/LinguaBrowse"
               target="_blank"
@@ -72,7 +72,7 @@ class Footer extends React.Component {
           <div>
             <h5>More</h5>
             {/* <a href={`${this.props.config.baseUrl}blog`}>Blog</a> */}
-            <a href="https://github.com/shirakaba/react-nativescript">GitHub – React NativeScript</a>
+            <a href="https://github.com/shirakaba/crank-native">GitHub – Crank Native</a>
             <a
               className="github-button"
               href={this.props.config.repoUrl}
@@ -83,10 +83,10 @@ class Footer extends React.Component {
               aria-label="Star this project on GitHub">
               Star
             </a>
-            <a href="https://github.com/shirakaba/react-nativescript-site">GitHub – Docs Site</a>
+            <a href="https://github.com/shirakaba/crank-native-site">GitHub – Docs Site</a>
             {/* <a
               className="github-button"
-              href={"https://github.com/shirakaba/react-nativescript-site"}
+              href={"https://github.com/shirakaba/crank-native-site"}
               data-icon="octicon-star"
               data-count-href="/facebook/docusaurus/stargazers"
               data-show-count="true"

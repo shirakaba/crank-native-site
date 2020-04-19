@@ -106,7 +106,7 @@ class Index extends React.Component {
         {[
           {
             content: 
-              'Supports hot module replacement (HMR) for rapid development.\n\n' +
+              'Excellent Intellisense support.\n\n' +
 
               'Apps build quickly, and version updates are trivial.\n\n' +
 
@@ -125,10 +125,10 @@ class Index extends React.Component {
         {[
           {
             content:
-              'This is another description of how this project is useful',
+              'All components in Crank are just functions or generator functions. No classes, hooks, proxies or template languages are needed.',
             image: `${baseUrl}img/undraw_note_list.svg`,
             imageAlign: 'right',
-            title: 'Description',
+            title: 'Just JavaScript™',
           },
         ]}
       </Block>
@@ -139,7 +139,7 @@ class Index extends React.Component {
         {[
           {
             content:
-              'React NativeScript UIs are made up of native views, just like NativeScript\'s. So you can be assured of excellent user experience and blazing performance.',
+              'Crank Native UIs are made up of native views, just like NativeScript\'s. So you can be assured of excellent user experience and blazing performance.',
             image: `${baseUrl}img/undraw_fast_loading.svg`,
             imageAlign: 'right',
             title: 'Truly native apps',
@@ -155,13 +155,15 @@ class Index extends React.Component {
             content: 'Re-use your existing React (Native) skills.',
             image: `${baseUrl}img/undraw_react.svg`,
             imageAlign: 'top',
-            title: 'Familiar React syntax',
+            title: 'Familiar JSX syntax',
           },
           {
-            content: 'Enjoy synchronous JS access to 100% of the platform\'s APIs.',
-            image: `${baseUrl}img/undraw_code_typing.svg`,
+            content:
+              'Enjoy synchronous JS access to 100% of the platform\'s APIs.\n\n' +
+              'Render synchronously or asynchronously using async/await in components.\n\n',
+            image: `${baseUrl}img/undraw_season_change.svg`,
             imageAlign: 'top',
-            title: 'Write native code in-line in JS',
+            title: 'Time control',
           },
         ]}
       </Block>
@@ -204,7 +206,7 @@ class Index extends React.Component {
           <FeatureCallout />
           <LearnHow />
           <TryOut />
-          {/* <Description /> */}
+          <Description />
           <Showcase />
         </div>
       </div>

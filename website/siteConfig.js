@@ -39,9 +39,9 @@ const contributors = [
 ];
 
 const siteConfig = {
-  title: 'React NativeScript', // Title for your website.
-  tagline: 'The native-first alternative to React Native',
-  url: 'http://react-nativescript.netlify.com', // Your website URL
+  title: 'Crank Native', // Title for your website.
+  tagline: 'Write JSX-driven components with functions, Promises and generators for iOS and Android.',
+  url: 'http://crank-native.netlify.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -50,7 +50,7 @@ const siteConfig = {
   // defaultVersionShown: '0.12.0', /* I won't be touching this until the package hits v1.0.0 */
 
   // Used for publishing and more
-  projectName: 'react-nativescript',
+  projectName: 'crank-native',
   organizationName: 'shirakaba',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -70,22 +70,26 @@ const siteConfig = {
   /* TODO */
   algolia: {
     apiKey: '16edafa1a5d6e60125dc2681f6a8d3d0',
-    indexName: 'react-nativescript',
+    indexName: 'crank-native',
   },
 
   /* path to images for header/footer */
-  headerIcon: 'img/react-nativescript.svg',
-  footerIcon: 'img/react-nativescript.svg',
-  favicon: 'img/favicon.ico',
+  // headerIcon: 'img/crank-native.svg',
+  // footerIcon: 'img/crank-native.svg',
+  // favicon: 'img/favicon.ico',
 
   /* Colors for website */
   colors: {
     // primaryColor: '#485FFC', /* NativeScript logo blue */
-    primaryColor: '#364CCB', /* NativeScript website backdrop blue */
-    secondaryColor: '#0B1C4C', /* NativeScript website dark button */
+
+    // primaryColor: '#364CCB', /* NativeScript website backdrop blue */
+    // secondaryColor: '#0B1C4C', /* NativeScript website dark button */
+
+    primaryColor: '#0C1227', /* Crank docs website backdrop royal blue */
+    secondaryColor: '#DBB368', /* Crank docs website gold */
   },
   // https://github.com/nativescript-vue/nativescript-vue.org/blob/master/content/docs/en
-  editUrl: 'https://github.com/shirakaba/react-nativescript-site/edit/master/docs/', // TODO: check whether correct
+  editUrl: 'https://github.com/shirakaba/crank-native-site/edit/master/docs/', // TODO: check whether correct
 
   /* Custom fonts for website */
   /*
@@ -141,7 +145,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-    repoUrl: 'https://github.com/shirakaba/react-nativescript',
+    repoUrl: 'https://github.com/shirakaba/crank-native',
 };
 
 module.exports = siteConfig;
