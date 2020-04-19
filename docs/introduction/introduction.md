@@ -19,6 +19,8 @@ Crank is a library for developing user interfaces. It allows you to write JSX-dr
 
 All components in Crank are just functions or generator functions. No classes, hooks, proxies or template languages are needed.
 
+It was created by Brian Kim ([GitHub](https://github.com/brainkim)), AKA `bikeshaving` ([GitHub](https://github.com/bikeshaving)). The Crank.js GitHub repo can be found [here](https://github.com/bikeshaving/crank).
+
 ## What is Crank Native?
 
 Crank Native is a Crank custom renderer that allows you to describe a NativeScript app using Crank's 'way of thinking'.
