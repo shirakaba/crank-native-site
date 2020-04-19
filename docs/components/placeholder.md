@@ -14,7 +14,7 @@ See also:
 ---
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 import { isIOS, isAndroid } from "tns-core-modules/platform/platform";
 
 <placeholder

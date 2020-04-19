@@ -18,7 +18,7 @@ See also:
 If you need to create multiple frames, you can do so by wrapping them in a Layout, for example if you want to have 2 frames side-by-side:
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <gridLayout columns={[new ItemSpec(1, "star"), new ItemSpec(1, "star")]} rows={[]}>
   <frame col={0}/>
@@ -29,7 +29,7 @@ import * as React from "react";
 #### A frame with a default page
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 import { Frame } from "@nativescript/core";
 
 interface Props {
@@ -69,7 +69,7 @@ class AppContainer extends React.Component<Props, State> {
 #### A frame with a default page from an external component
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 import HomePage from './HomePage';
 
 <frame>

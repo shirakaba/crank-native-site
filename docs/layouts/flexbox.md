@@ -19,7 +19,7 @@ See also:
 The following example creates a row of three equally-sized elements that span across the entire height of the screen.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <flexboxLayout backgroundColor="#3c495e">
   <label text="first" width={70} backgroundColor="#43b883"/>
@@ -36,7 +36,7 @@ import * as React from "react";
 The following example creates a column of three equally-sized elements that span across the entire width of the screen.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <flexboxLayout flexDirection="column" backgroundColor="#3c495e">
   <label text="first" height={70} backgroundColor="#43b883"/>
@@ -53,7 +53,7 @@ import * as React from "react";
 The following example creates a row of three items placed at the top of the screen. Items are placed in the order they were declared in.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <flexboxLayout alignItems="flex-start" backgroundColor="#3c495e">
   <label text="first" width={70} height={70} backgroundColor="#43b883"/>
@@ -70,7 +70,7 @@ import * as React from "react";
 The following example creates a row of three items placed at the top of the screen. Items are placed in a customized order.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <flexboxLayout alignItems="flex-start" backgroundColor="#3c495e">
   <label text="first" order={2} width={70} height={70} backgroundColor="#43b883"/>
@@ -87,7 +87,7 @@ import * as React from "react";
 The following example creates four items with enabled line wrapping. When the row runs out of space, the container wraps the last item on a new line.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <flexboxLayout flexWrap="wrap" backgroundColor="#3c495e">
   <label text="first" width={30} backgroundColor="#43b883"/>
@@ -109,7 +109,7 @@ The following example shows how to use:
 * `alignSelf` to modify the position of items across the main axis.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <flexboxLayout
   flexDirection="column-reverse"

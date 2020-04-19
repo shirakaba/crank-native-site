@@ -19,7 +19,7 @@ See also:
 ---
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <segmentedBar>
   <segmentedBarItem title="First" />

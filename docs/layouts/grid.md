@@ -30,7 +30,7 @@ See also:
 The following example creates a simple 2-by-2 grid with fixed column widths and row heights.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 import { ItemSpec } from "tns-core-modules/ui/layouts/grid-layout/grid-layout";
 
 <gridLayout
@@ -52,7 +52,7 @@ import { ItemSpec } from "tns-core-modules/ui/layouts/grid-layout/grid-layout";
 The following example creates a grid with responsive design, where space is alotted proportionally to child elements.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 import { ItemSpec } from "tns-core-modules/ui/layouts/grid-layout/grid-layout";
 
 <gridLayout
@@ -74,7 +74,7 @@ import { ItemSpec } from "tns-core-modules/ui/layouts/grid-layout/grid-layout";
 The following example create a grid with one auto-sized column and one column with fixed size. Rows have a fixed height.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 import { ItemSpec } from "tns-core-modules/ui/layouts/grid-layout/grid-layout";
 
 <gridLayout
@@ -96,7 +96,7 @@ import { ItemSpec } from "tns-core-modules/ui/layouts/grid-layout/grid-layout";
 The following example creates a complex grid with responsive design, mixed width and height settings, and some merged cells.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 import { ItemSpec } from "tns-core-modules/ui/layouts/grid-layout/grid-layout";
 
 <gridLayout

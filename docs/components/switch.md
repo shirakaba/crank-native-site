@@ -16,7 +16,7 @@ See also:
 ---
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <switch checked={true} />
 ```

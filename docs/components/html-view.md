@@ -15,7 +15,7 @@ See also:
 ---
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <htmlView html="<div><h1>HtmlView</h1></div>" />
 ```

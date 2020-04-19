@@ -17,7 +17,7 @@ See also:
 ---
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <scrollView orientation="horizontal">
   <stackLayout orientation="horizontal">

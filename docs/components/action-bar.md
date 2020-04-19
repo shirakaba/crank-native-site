@@ -20,7 +20,7 @@ See also:
 #### Using a title
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <actionBar title="MyApp" />
 ```
@@ -28,7 +28,7 @@ import * as React from "react";
 #### Using a custom title view
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <actionBar>
   <stackLayout orientation="horizontal">
@@ -53,7 +53,7 @@ By default, a border is drawn at the bottom of the `<actionBar>`. In addition to
 To remove this styling from your app, you can set the `flat` property to `true`.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <actionBar title="My App" flat={true} />
 ```

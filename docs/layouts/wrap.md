@@ -19,7 +19,7 @@ See also:
 The following example creates a row of equally-sized items. When the row runs out of space, the container wraps the last item on a new row.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <wrapLayout backgroundColor="#3c495e">
   <label
@@ -58,7 +58,7 @@ import * as React from "react";
 The following example creates a column of equally-sized items. When the row runs out of space, the container wraps the last item on a new column.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 import { wrapLayout, label } from "react-nativescript";
 
 <wrapLayout orientation="vertical" backgroundColor="#3c495e">

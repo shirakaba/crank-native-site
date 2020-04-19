@@ -14,7 +14,7 @@ See also:
 ---
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <searchBar hint="Search hint" text="searchPhrase" onTextChange={onTextChanged} onSubmit={onSubmit} onClose={onClose} />
 ```

@@ -18,7 +18,7 @@ See also:
 You can either use the `<label>` element's `text` prop or enter text as a child node.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <label>This is a Label</label>
 ```
@@ -32,7 +32,7 @@ If you need to style parts of the text, you can use a combination of a [`Formatt
 You can either use the `<span>` element's `text` prop or enter text as a child node.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 import { Color } from "@nativescript/core";
 
 <label textWrap={true}>

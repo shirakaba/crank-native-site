@@ -15,7 +15,7 @@ See also:
 ---
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 function getTaskCompletionPercent(){
     // Just a stub method to illustrate the concept.

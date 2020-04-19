@@ -25,7 +25,7 @@ See also:
 The following example creates a simple grid. For more information about creating grid layouts, see [GridLayout](/en/docs/elements/layouts/grid-layout).
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <absoluteLayout backgroundColor="#3c495e">
   <label text="10,10" left={10} top={10} width={100} height={100} backgroundColor="#43b883"/>
@@ -43,7 +43,7 @@ import * as React from "react";
 The following example creates a group of overlapping items.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <absoluteLayout backgroundColor="#3c495e">
   <label text="10,10" left={10} top={10} width={100} height={100} backgroundColor="#289062"/>

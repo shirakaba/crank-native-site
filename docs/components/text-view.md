@@ -26,7 +26,7 @@ See also:
 To apply multiple styles to the text in your `<textView>`, you can use `<formattedString>`:
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <textView editable={false}>
   <formattedString>

@@ -75,7 +75,7 @@ You'll see that any modules that are globally accessible in the iOS runtime are 
 ```tsx
 /// <reference types="tns-platform-declarations/ios" />
 
-import * as React from "react";
+/** @jsx createElement */
 import { WebView, SearchBar, EventData, isIOS } from "@nativescript/core";
 
 interface Props {

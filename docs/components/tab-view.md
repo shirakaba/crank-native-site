@@ -15,7 +15,7 @@ See also:
 ---
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 import { SelectedIndexChangedEventData } from "tns-core-modules/ui/tab-view/tab-view";
 
 <tabView
@@ -41,7 +41,7 @@ import { SelectedIndexChangedEventData } from "tns-core-modules/ui/tab-view/tab-
 #### Adding icons to tabs
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <tabView selectedIndex={selectedIndex} iosIconRenderingMode="alwaysOriginal">
   <tabViewItem title="Tab 1" iconSource="~/images/icon.png">

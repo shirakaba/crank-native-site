@@ -16,7 +16,7 @@ See also:
 #### Displaying an image relative to the `app` directory
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <image src="~/logo.png" stretch="none" />
 ```
@@ -24,7 +24,7 @@ import * as React from "react";
 #### Displaying an image from a URL
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <image src="https://art.nativescript-vue.org/NativeScript-Vue-White-Green.png" stretch="none" />
 ```
@@ -32,7 +32,7 @@ import * as React from "react";
 #### Displaying an image from `App_Resources`
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <image src="res://icon" stretch="none" />
 ```
@@ -40,7 +40,7 @@ import * as React from "react";
 #### Displaying a `base64`-encoded image
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <image src="data:Image/png;base64,iVBORw..." stretch="none" />
 ```

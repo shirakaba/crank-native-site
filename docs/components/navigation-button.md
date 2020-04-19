@@ -18,7 +18,7 @@ See also:
 ---
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <actionBar title="My App">
   <navigationButton

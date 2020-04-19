@@ -19,7 +19,7 @@ See also:
 The following example creates a vertical stack of 3 equally-sized elements. Items are stretched to cover the entire width of the screen. Items are placed in the order they were declared in.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <stackLayout backgroundColor="#3c495e">
   <label text="first" height={70} backgroundColor="#43b883"/>
@@ -36,7 +36,7 @@ import * as React from "react";
 The following example creates a horizontal stack of 3 equally-sized elements. Items are stretched to cover the entire height of the screen. Items are placed in the order they were declared in.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <stackLayout orientation="horizontal" backgroundColor="#3c495e">
   <label text="first" width={70} backgroundColor="#43b883"/>
@@ -53,7 +53,7 @@ import * as React from "react";
 The following example creates a diagonal stack of items with responsive sizes. Items are vertically stacked.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <stackLayout backgroundColor="#3c495e">
   <label
@@ -94,7 +94,7 @@ import * as React from "react";
 The following example creates a diagonal stack of items with responsive sizes. Items are horizontally stacked.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <stackLayout orientation="horizontal" backgroundColor="#3c495e">
   <label

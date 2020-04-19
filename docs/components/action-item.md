@@ -18,7 +18,7 @@ See also:
 #### Basic use
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <actionBar title="My App">
   <actionItem
@@ -51,7 +51,7 @@ import * as React from "react";
 You can use the `visibility` prop (inherited from `View`) to show `<actionItem>` components based on a condition.
 
 ```tsx
-import * as React from "react";
+/** @jsx createElement */
 
 <actionBar title="My App">
   <actionItem
