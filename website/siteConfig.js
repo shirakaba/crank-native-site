@@ -68,10 +68,10 @@ const siteConfig = {
   // users,
 
   /* TODO */
-  algolia: {
-    apiKey: '16edafa1a5d6e60125dc2681f6a8d3d0',
-    indexName: 'crank-native',
-  },
+  // algolia: {
+  //   apiKey: '16edafa1a5d6e60125dc2681f6a8d3d0',
+  //   indexName: 'crank-native',
+  // },
 
   /* path to images for header/footer */
   // headerIcon: 'img/crank-native.svg',
