@@ -8,7 +8,7 @@ sidebar_label: Quick Start
 
 ## Developing online (in the Playground)
 
-If you don't want the hassle of installing and configuring your system before you can have a taste of Crank Native, the [NativeScript Playground](https://play.nativescript.org/?template=play-react&id=lwOLY2&v=1) has you covered (**Note:** experimental at the moment!).
+If you don't want the hassle of installing and configuring your system before you can have a taste of Crank Native, the [NativeScript Playground](https://play.nativescript.org/?template=play-react&id=lwOLY2&v=3) has you covered (**Note:** experimental at the moment!).
 
 But if you [already have your system ready for native development](/docs/installation), you can start by using the `tns-template-blank-crank` detailed in the next section.
 
